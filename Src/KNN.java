@@ -30,7 +30,7 @@ public class KNN {
 				l.add(line);
 			}
 			sc1 = new Scanner(new FileReader(f1));
-			while(sc1.hasNext())//checking the training data for accuracy
+			while(sc1.hasNext())//checking the training data for correctness
 			{
 				linecount++;				
 				count1=count2=k=0;
