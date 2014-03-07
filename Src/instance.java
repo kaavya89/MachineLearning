@@ -2,6 +2,7 @@ package src;
 import java.io.*;
 import java.util.*;
 
+/******************** Program that writes an instace file **********************/
 public class instance {
 
 	public static void main(String[] args) {
