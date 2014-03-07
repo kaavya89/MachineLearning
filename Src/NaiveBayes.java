@@ -27,7 +27,7 @@ public class NaiveBayes {
 				line = sc.nextLine();
 				splitted = line.split(",");				
 				classvalue = line.substring(line.lastIndexOf(","),line.length());
-				if(hm.containsKey(classvalue)) // Contains unique values of classlabels
+				if(hm.containsKey(classvalue)) // Contains unique values of the classlabels
 					hm.put(classvalue, hm.get(classvalue).intValue()+1);
 				else						
 					hm.put(classvalue,1);				
